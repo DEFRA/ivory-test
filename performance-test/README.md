@@ -98,7 +98,7 @@ Editable via the config.yaml, blazemeter.yaml or env.sh
 | email | email for simulated user | yes  |String  |
 | use_address_lookup | use the address lookup or strings for international addresses  | yes  | the string false will not use the lookup (recommended). Contact the project team for permission to use this  |
 | use_gov_pay | use the address lookup or strings for international addresses  | yes  | Not yet implemented. Do NOT use the live GovPay address. Contact GDS for info on performance test instances. |
-| gov_pay_url | gov pay test / mock instance url  | no - not yet implemented    | Not yet implemented. Not yet implemented. Not yet implemented. Do NOT use the live GovPay address. Contact GDS for info on performance test instances. |
+| gov_pay_url | gov pay test / mock instance url  | no - not yet implemented    | Not yet implemented. Do NOT use the live GovPay address. Contact GDS for info on performance test instances. |
 
 ## Reporting
 
