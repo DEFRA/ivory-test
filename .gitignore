@@ -1,0 +1,11 @@
+# Ignore
+performance-test/config.yaml
+performance-test/blazemeter.yaml
+performance-test/env.sh
+performance-test/jmeter.log
+performance-test/errors.csv
+performance-test/aggregate.csv
+performance-test/summary.csv
+performance-test/threads.csv
+performance-test/upload-failures.csv
+performance-test/response-times.csv
