@@ -99,7 +99,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
@@ -3362,9 +3362,22 @@ if(value != &quot;true&quot;) {
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                     </elementProp>
-                    <elementProp name="uniqueFeatures" elementType="HTTPArgument">
+                    <elementProp name="hasDistinguishingFeatures" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.name">uniqueFeatures</stringProp>
+                      <stringProp name="Argument.name">hasDistinguishingFeatures</stringProp>
+                      <stringProp name="Argument.value">Yes</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    </elementProp>
+                    <elementProp name="distinguishingFeatures" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">test</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">distinguishingFeatures</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
                       <stringProp name="Argument.value"></stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
@@ -5155,7 +5168,7 @@ SampleResult.setStopTest(false);</stringProp>
         <collectionProp name="ProxyControlGui.include_list"/>
         <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
         <intProp name="ProxyControlGui.grouping_mode">4</intProp>
-        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <boolProp name="ProxyControlGui.add_assertion">true</boolProp>
         <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
         <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
         <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
