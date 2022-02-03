@@ -69,8 +69,8 @@ cy.wait(2000)
 
       //Contact details
       cy.get('#fullName').type('Shaun Test');
-      cy.get('#emailAddress').type('ali.akar@outlook.com');
-      cy.get('#confirmEmailAddress').type('ali.akar@outlook.com');
+      cy.get('#emailAddress').type('joe.bloggs@email.com');
+      cy.get('#confirmEmailAddress').type('joe.bloggs@email.com');
       cy.get("#continue").click();
 
       //Address 
