@@ -1,10 +1,11 @@
 execution:
   - scenario: loadIvory
-    concurrency: 2
+    concurrency: 50
     ramp-up: 1m
     hold-for: 12m
     locations:
-      eu-west-3: 1
+      eu-west-2: 1
+    locations-weighted: false
 
 scenarios:
   loadIvory:
