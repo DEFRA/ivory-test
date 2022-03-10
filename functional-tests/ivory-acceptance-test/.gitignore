@@ -5,3 +5,4 @@ selenium-debug.log
 .vscode
 local.log
 .env
+.DS_Store
