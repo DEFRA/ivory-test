@@ -1,0 +1,32 @@
+---
+execution:
+- concurrency: 50
+  hold-for: 600m
+  ramp-up: 10m
+  scenario: soak
+modules:
+  console:
+    disable: false
+  final_stats:
+    disable: false
+  jmeter:
+    memory-xms: 4G
+    memory-xmx: 12G
+    path: /Applications/apache-jmeter-5.4.1
+reporting:
+- module: final_stats
+- module: console
+scenarios:
+  soak:
+    script: ivory.jmx
+    variables:
+      PAUSE: 15000
+      email: null
+      gov_pay_url: null
+      host: ivy-web-snd.azure.defra.cloud
+      password: null
+      scheme: https
+      use_address_lookup: false
+      use_gov_pay: false
+      username: null
+

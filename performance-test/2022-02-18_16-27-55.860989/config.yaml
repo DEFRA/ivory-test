@@ -1,0 +1,33 @@
+execution:
+  - scenario: soak
+    concurrency: 50
+    ramp-up: 10m
+    hold-for: 600m
+
+scenarios:
+  soak:
+    script: ivory.jmx
+    variables:
+      PAUSE: 15000
+      scheme: https
+      host: ivy-web-snd.azure.defra.cloud
+      username:
+      password:
+      email:
+      use_address_lookup: false
+      use_gov_pay: false
+      gov_pay_url: # not fully implemented. for use on approved test environments only
+
+reporting:
+  - module: final_stats
+  - module: console
+
+modules:
+  jmeter:
+    path: /Applications/apache-jmeter-5.4.1
+    memory-xmx: 12G
+    memory-xms: 4G # not sure if this is getting through -maybe edit in Jmeter.bat
+  console:
+    disable: false
+  final_stats:
+    disable: false

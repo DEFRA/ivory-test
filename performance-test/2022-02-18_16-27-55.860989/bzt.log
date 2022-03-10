@@ -1,0 +1,400 @@
+[2022-02-18 16:27:55,787 INFO root] Taurus CLI Tool v1.15.2
+[2022-02-18 16:27:55,787 DEBUG root] Build: 14035 Thu Jan 21 10:28:57 UTC 2021
+[2022-02-18 16:27:55,788 DEBUG root] Extended git info:  067490eb Release 1.15.2
+[2022-02-18 16:27:55,788 DEBUG root] Command-line options: {'log': '/var/folders/rt/5lqx5n6x6n7clt4lrkgwtdwh0000gn/T/bzt_non6y8lr.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2022-02-18 16:27:55,788 DEBUG root] Python: CPython 3.9.7
+[2022-02-18 16:27:55,788 DEBUG root] OS: uname_result(system='Darwin', node='Deles-MacBook-Pro.local', release='20.5.0', version='Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64', machine='x86_64')
+[2022-02-18 16:27:55,788 DEBUG root] Path to interpreter: /usr/local/Cellar/bzt/1.15.2/libexec/bin/python3.9
+[2022-02-18 16:27:55,788 DEBUG root] Path to packages: ['/usr/local/Cellar/bzt/1.15.2/libexec/bin', '/usr/local/Cellar/python@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python39.zip', '/usr/local/Cellar/python@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python3.9', '/usr/local/Cellar/python@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload', '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages', '/usr/local/opt/numpy/lib/python3.9/site-packages']
+[2022-02-18 16:27:55,792 DEBUG root] Default python: /usr/bin/python
+[2022-02-18 16:27:55,793 DEBUG root] Default python3: /usr/local/bin/python3
+[2022-02-18 16:27:55,793 INFO root] Starting with configs: ['config.yaml']
+[2022-02-18 16:27:55,793 DEBUG root] Using personal config: /Users/delelookman/.bzt-rc
+[2022-02-18 16:27:55,793 INFO Engine] Configuring...
+[2022-02-18 16:27:55,827 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml']
+[2022-02-18 16:27:55,827 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml']
+[2022-02-18 16:27:55,828 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/resources/10-base-config.yml as YAML
+[2022-02-18 16:27:55,846 DEBUG Engine] User configs list: ['/Users/delelookman/.bzt-rc', 'config.yaml']
+[2022-02-18 16:27:55,846 DEBUG Engine.Configuration] Configs: ['/Users/delelookman/.bzt-rc', 'config.yaml']
+[2022-02-18 16:27:55,847 DEBUG Engine.Configuration] Reading /Users/delelookman/.bzt-rc as YAML
+[2022-02-18 16:27:55,850 DEBUG Engine.Configuration] Reading config.yaml as YAML
+[2022-02-18 16:27:55,854 DEBUG Engine.Configuration] Configs: ['/Users/delelookman/.bzt-rc', 'config.yaml']
+[2022-02-18 16:27:55,854 DEBUG Engine.Configuration] Reading /Users/delelookman/.bzt-rc as YAML
+[2022-02-18 16:27:55,857 DEBUG Engine.Configuration] Reading config.yaml as YAML
+[2022-02-18 16:27:55,860 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.15.2&installID=macos-aae9fe84f2be
+[2022-02-18 16:27:55,860 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.15.2&installID=macos-aae9fe84f2be
+[2022-02-18 16:27:55,861 INFO Engine] Artifacts dir: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989
+[2022-02-18 16:27:55,861 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective
+[2022-02-18 16:27:55,862 DEBUG Engine.Configuration] Dumping YAML config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.yml
+[2022-02-18 16:27:55,877 DEBUG Engine.Configuration] Dumping JSON config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.json
+[2022-02-18 16:27:55,878 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/merged.yml
+[2022-02-18 16:27:55,878 DEBUG Engine.Configuration] Dumping YAML config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/merged.yml
+[2022-02-18 16:27:55,880 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/merged.json
+[2022-02-18 16:27:55,881 DEBUG Engine.Configuration] Dumping JSON config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/merged.json
+[2022-02-18 16:27:55,881 DEBUG Engine] Add existing artifact (move=False): config.yaml
+[2022-02-18 16:27:55,881 DEBUG Engine] Copying config.yaml to /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/config.yaml
+[2022-02-18 16:27:55,882 DEBUG Engine] Set PYTHONPATH to :
+	USER: '/Users/delelookman/.bzt/python-packages/3.9.7' +
+	TEMP: '/Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/python-packages/3.9.7' +
+	CURRENT: ''
+[2022-02-18 16:27:55,882 DEBUG Engine] Content of user packages dir: []
+[2022-02-18 16:27:55,882 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2022-02-18 16:27:55,882 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=/Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989
+[2022-02-18 16:27:55,882 DEBUG root] Closing log handler: /var/folders/rt/5lqx5n6x6n7clt4lrkgwtdwh0000gn/T/bzt_non6y8lr.log
+[2022-02-18 16:27:55,883 DEBUG root] Switched writing logs to /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/bzt.log
+[2022-02-18 16:27:55,883 DEBUG root] Linting config
+[2022-02-18 16:27:55,884 INFO Engine] Preparing...
+[2022-02-18 16:27:55,884 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2022-02-18 16:27:55,884 DEBUG root] Importing module: bzt.modules.aggregator
+[2022-02-18 16:27:55,966 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2022-02-18 16:27:56,055 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/aggregator.py'>
+[2022-02-18 16:27:56,056 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2022-02-18 16:27:56,056 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2022-02-18 16:27:56,056 DEBUG root] Importing module: bzt.modules.monitoring
+[2022-02-18 16:27:56,057 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/monitoring.py'>
+[2022-02-18 16:27:56,057 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2022-02-18 16:27:56,057 DEBUG root] Importing module: bzt.modules.provisioning
+[2022-02-18 16:27:56,057 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/provisioning.py'>
+[2022-02-18 16:27:56,057 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}, 'path': '/Applications/apache-jmeter-5.4.1', 'memory-xmx': '12G', 'memory-xms': '4G'}
+[2022-02-18 16:27:56,057 DEBUG root] Importing module: bzt.modules.jmeter
+[2022-02-18 16:27:56,066 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/jmeter.py'>
+[2022-02-18 16:27:56,066 DEBUG Engine.local] Preparing executor: jmeter/4599616992
+[2022-02-18 16:27:56,067 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter.log
+[2022-02-18 16:27:56,067 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2022-02-18 16:27:56,067 DEBUG Engine.jmeter] Port 4445 is busy
+[2022-02-18 16:27:56,067 DEBUG Engine.jmeter] Port 4445 is busy, trying next one
+[2022-02-18 16:27:56,067 DEBUG Engine.jmeter] Checking if port 4446 is free
+[2022-02-18 16:27:56,067 DEBUG Engine.jmeter] Port 4446 is busy
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4446 is busy, trying next one
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Checking if port 4447 is free
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4447 is busy
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4447 is busy, trying next one
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Checking if port 4448 is free
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4448 is busy
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4448 is busy, trying next one
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Checking if port 4449 is free
+[2022-02-18 16:27:56,068 DEBUG Engine.jmeter] Port 4449 is busy
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Port 4449 is busy, trying next one
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Checking if port 4450 is free
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Port 4450 is busy
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Port 4450 is busy, trying next one
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Checking if port 4451 is free
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Port 4451 is free
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Using port 4451 for management
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Setting JVM heap size to 12G
+[2022-02-18 16:27:56,069 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4451, 'jmeterengine.nongui.maxport': 4451, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989:/Users/delelookman/Documents/ivory-test/performance-test'}
+[2022-02-18 16:27:56,069 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter-bzt.properties
+[2022-02-18 16:27:56,070 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2022-02-18 16:27:56,070 DEBUG root] Executing shell: ['java', '-version'] at .
+[2022-02-18 16:27:56,247 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_292-b10)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.292-b10, mixed mode)
+
+[2022-02-18 16:27:56,247 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2022-02-18 16:27:56,247 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2022-02-18 16:27:56,247 DEBUG root] Executing shell: ['/Applications/apache-jmeter-5.4.1/bin/jmeter.sh', '-j', '/var/folders/rt/5lqx5n6x6n7clt4lrkgwtdwh0000gn/T/jmeter2evpvocglog', '--version'] at .
+[2022-02-18 16:27:57,138 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.15.2&installID=macos-aae9fe84f2be HTTP/1.1" 200 39
+[2022-02-18 16:27:57,139 DEBUG Engine] Taurus updates info: {'latest': '1.16.3', 'needsUpgrade': True}
+[2022-02-18 16:27:57,139 WARNING Engine] There is newer version of Taurus 1.16.3 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2022-02-18 16:28:12,531 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / 
+[2022-02-18 16:28:12,550 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/kpi.jtl
+[2022-02-18 16:28:12,551 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/error.jtl
+[2022-02-18 16:28:12,557 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2022-02-18 16:28:12,558 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=50, throughput=None, ramp_up=600.0, hold=36000.0, iterations=0, duration=36600.0, steps=None)
+[2022-02-18 16:28:12,562 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (Thread Group) to ConcurrencyThreadGroup and apply load parameters
+[2022-02-18 16:28:12,563 DEBUG JMX] Saving JMX to: /Users/delelookman/Documents/ivory-test/performance-test/modified_ivory.jmx
+[2022-02-18 16:28:12,568 DEBUG root] Executing shell: ['/Applications/apache-jmeter-5.4.1/bin/PluginsManagerCMD.sh', 'install-for-jmx', '/Users/delelookman/Documents/ivory-test/performance-test/modified_ivory.jmx'] at .
+[2022-02-18 16:28:31,809 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /Users/delelookman/Documents/ivory-test/performance-test/modified_ivory.jmx
+2022-02-18 16:28:23,213 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2022-02-18 16:28:28,284 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-842dff0735c06447549b0b6ec6cdff47-nongui
+2022-02-18 16:28:30,278 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-functions=2.1, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1, jpgc-standard=2.0]
+2022-02-18 16:28:30,280 INFO o.j.r.PluginManagerCMD: Params line is: /Users/delelookman/Documents/ivory-test/performance-test/modified_ivory.jmx
+2022-02-18 16:28:30,563 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-02-18 16:28:30,575 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-02-18 16:28:30,579 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-02-18 16:28:30,791 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-02-18 16:28:30,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-02-18 16:28:31,390 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-02-18 16:28:31,391 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Applications/apache-jmeter-5.4.1/bin/proxyserver.jks
+2022-02-18 16:28:31,424 INFO o.j.r.PluginManager: Finishing without changes
+
+
+[2022-02-18 16:28:31,810 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter.out
+[2022-02-18 16:28:31,811 DEBUG Engine] New artifact filename: /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter.err
+[2022-02-18 16:28:31,815 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2022-02-18 16:28:31,816 DEBUG root] Importing module: bzt.modules.reporting
+[2022-02-18 16:28:31,832 DEBUG easyprocess] version=0.3
+[2022-02-18 16:28:31,834 DEBUG pyvirtualdisplay] version=2.0
+[2022-02-18 16:28:31,836 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/reporting.py'>
+[2022-02-18 16:28:31,836 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter', 'disable': False}
+[2022-02-18 16:28:31,836 DEBUG root] Importing module: bzt.modules.console
+[2022-02-18 16:28:31,836 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/console.py'>
+[2022-02-18 16:28:31,836 DEBUG Engine] Module config: final_stats {'class': 'bzt.modules.reporting.FinalStatus', 'disable': False}
+[2022-02-18 16:28:31,836 DEBUG root] Importing module: bzt.modules.reporting
+[2022-02-18 16:28:31,836 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.15.2/libexec/lib/python3.9/site-packages/bzt/modules/reporting.py'>
+[2022-02-18 16:28:31,837 WARNING Engine] Module 'console' can be only used once, will merge all new instances into single
+[2022-02-18 16:28:31,844 DEBUG Engine.Configuration] Dumping YAML config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.yml
+[2022-02-18 16:28:31,858 DEBUG Engine.Configuration] Dumping JSON config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.json
+[2022-02-18 16:28:31,859 INFO Engine] Starting...
+[2022-02-18 16:28:31,859 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x11225f760>
+[2022-02-18 16:28:31,859 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x112289130>
+[2022-02-18 16:28:31,859 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x112deb880>
+[2022-02-18 16:28:31,859 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x11225f8b0>
+[2022-02-18 16:28:31,859 INFO Engine.console] Waiting for results...
+[2022-02-18 16:28:31,859 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x11354e610>
+[2022-02-18 16:28:31,860 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x11225f790>
+[2022-02-18 16:28:31,860 DEBUG Engine.local] Delay setup for jmeter/soak: 0(start-at) + 0(delay) = 0
+[2022-02-18 16:28:31,861 DEBUG Engine.Configuration] Dumping YAML config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.yml
+[2022-02-18 16:28:31,876 DEBUG Engine.Configuration] Dumping JSON config into /Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/effective.json
+[2022-02-18 16:28:31,876 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2022-02-18 16:28:31,876 DEBUG root] Leveled up log file verbosity
+[2022-02-18 16:28:31,877 DEBUG root] Executing shell: ['/Applications/apache-jmeter-5.4.1/bin/jmeter.sh', '-t', '/Users/delelookman/Documents/ivory-test/performance-test/modified_ivory.jmx', '-j', '/Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter.log', '-q', '/Users/delelookman/Documents/ivory-test/performance-test/2022-02-18_16-27-55.860989/jmeter-bzt.properties', '-n'] at /Users/delelookman/Documents/ivory-test/performance-test
+[2022-02-18 16:28:31,883 DEBUG Engine.local] Starting execution: jmeter/soak, rest of available slots: 9223372036854775806
+[2022-02-18 16:28:31,883 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2022-02-18 16:28:32,116 INFO Engine.console] Waiting for finish...
+[2022-02-18 16:28:56,969 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 4s
+[2022-02-18 16:29:20,025 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 2s
+[2022-02-18 16:30:57,323 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 3s
+[2022-02-18 16:31:07,316 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 4s
+[2022-02-18 16:31:08,334 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 16s
+[2022-02-18 16:31:24,404 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 18s
+[2022-02-18 16:31:27,383 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 19s
+[2022-02-18 16:31:32,395 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 18s
+[2022-02-18 16:31:35,398 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 19s
+[2022-02-18 16:31:40,426 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 18s
+[2022-02-18 16:31:40,499 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 19s
+[2022-02-18 16:31:49,429 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 21s
+[2022-02-18 16:31:53,448 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 19s
+[2022-02-18 16:31:56,461 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 21s
+[2022-02-18 16:31:59,466 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 22s
+[2022-02-18 16:32:18,495 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 23s
+[2022-02-18 16:32:20,512 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 22s
+[2022-02-18 16:32:37,550 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 23s
+[2022-02-18 16:32:43,558 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 24s
+[2022-02-18 16:32:53,596 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 26s
+[2022-02-18 16:33:00,606 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 28s
+[2022-02-18 16:33:02,605 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 29s
+[2022-02-18 16:33:11,620 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 30s
+[2022-02-18 16:33:16,630 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 29s
+[2022-02-18 16:33:19,650 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 30s
+[2022-02-18 16:33:36,680 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 46s
+[2022-02-18 16:33:54,787 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 63s
+[2022-02-18 16:34:14,779 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 67s
+[2022-02-18 16:34:20,779 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 69s
+[2022-02-18 16:34:26,794 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 67s
+[2022-02-18 16:34:26,856 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 69s
+[2022-02-18 16:34:31,810 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 72s
+[2022-02-18 16:34:44,861 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 69s
+[2022-02-18 16:34:46,837 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 72s
+[2022-02-18 16:34:53,857 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 77s
+[2022-02-18 16:34:58,861 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 80s
+[2022-02-18 16:35:03,928 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 101s
+[2022-02-18 16:35:28,967 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 107s
+[2022-02-18 16:35:37,973 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 106s
+[2022-02-18 16:35:45,015 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 107s
+[2022-02-18 16:35:49,978 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 108s
+[2022-02-18 16:35:57,002 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 107s
+[2022-02-18 16:35:58,006 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 113s
+[2022-02-18 16:36:05,011 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 137s
+[2022-02-18 16:36:31,097 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 141s
+[2022-02-18 16:36:43,106 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 140s
+[2022-02-18 16:36:54,126 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 144s
+[2022-02-18 16:37:00,136 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 141s
+[2022-02-18 16:37:07,160 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 146s
+[2022-02-18 16:37:14,155 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 149s
+[2022-02-18 16:37:17,155 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 166s
+[2022-02-18 16:37:40,257 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 167s
+[2022-02-18 16:37:44,247 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 171s
+[2022-02-18 16:37:57,289 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 175s
+[2022-02-18 16:38:05,318 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 178s
+[2022-02-18 16:38:17,304 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 175s
+[2022-02-18 16:38:17,397 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 178s
+[2022-02-18 16:38:21,296 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 188s
+[2022-02-18 16:38:35,323 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 192s
+[2022-02-18 16:38:42,372 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 193s
+[2022-02-18 16:38:44,358 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 192s
+[2022-02-18 16:38:46,364 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 190s
+[2022-02-18 16:38:51,394 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 193s
+[2022-02-18 16:39:00,413 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 192s
+[2022-02-18 16:39:00,509 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 202s
+[2022-02-18 16:39:15,451 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 204s
+[2022-02-18 16:39:17,412 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 207s
+[2022-02-18 16:39:27,476 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 209s
+[2022-02-18 16:39:37,440 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 207s
+[2022-02-18 16:39:42,448 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 221s
+[2022-02-18 16:39:57,485 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 223s
+[2022-02-18 16:40:02,529 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 226s
+[2022-02-18 16:40:08,547 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 223s
+[2022-02-18 16:40:08,619 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 228s
+[2022-02-18 16:40:17,540 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 226s
+[2022-02-18 16:40:25,586 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 223s
+[2022-02-18 16:40:32,589 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 228s
+[2022-02-18 16:40:39,600 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 231s
+[2022-02-18 16:40:49,595 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 228s
+[2022-02-18 16:40:50,611 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 243s
+[2022-02-18 16:41:05,627 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 256s
+[2022-02-18 16:41:24,682 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 268s
+[2022-02-18 16:41:42,769 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 270s
+[2022-02-18 16:41:55,757 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 269s
+[2022-02-18 16:41:58,743 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 270s
+[2022-02-18 16:42:00,726 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 271s
+[2022-02-18 16:42:02,727 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 272s
+[2022-02-18 16:42:04,734 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 273s
+[2022-02-18 16:42:08,768 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 275s
+[2022-02-18 16:42:25,794 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 280s
+[2022-02-18 16:42:45,884 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 286s
+[2022-02-18 16:42:55,835 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 282s
+[2022-02-18 16:43:03,876 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 280s
+[2022-02-18 16:43:03,965 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 282s
+[2022-02-18 16:43:13,913 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 280s
+[2022-02-18 16:43:21,928 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 282s
+[2022-02-18 16:43:31,912 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 287s
+[2022-02-18 16:43:43,935 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 296s
+[2022-02-18 16:43:57,966 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 299s
+[2022-02-18 16:44:18,044 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 302s
+[2022-02-18 16:44:25,989 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 305s
+[2022-02-18 16:44:27,989 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 306s
+[2022-02-18 16:44:34,038 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 309s
+[2022-02-18 16:44:38,011 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 311s
+[2022-02-18 16:44:45,039 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 315s
+[2022-02-18 16:44:51,036 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 311s
+[2022-02-18 16:44:51,150 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 325s
+[2022-02-18 16:45:11,116 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 347s
+[2022-02-18 16:45:39,142 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 354s
+[2022-02-18 16:45:53,218 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 387s
+[2022-02-18 16:46:40,269 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 396s
+[2022-02-18 16:46:58,286 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 400s
+[2022-02-18 16:47:16,321 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 396s
+[2022-02-18 16:47:20,341 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 406s
+[2022-02-18 16:47:37,391 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 410s
+[2022-02-18 16:47:52,434 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 409s
+[2022-02-18 16:47:57,418 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 411s
+[2022-02-18 16:48:04,460 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 412s
+[2022-02-18 16:48:14,524 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 413s
+[2022-02-18 16:48:17,481 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 433s
+[2022-02-18 16:48:40,523 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 438s
+[2022-02-18 16:48:51,550 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 437s
+[2022-02-18 16:49:20,581 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 439s
+[2022-02-18 16:49:32,619 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 443s
+[2022-02-18 16:49:42,651 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 445s
+[2022-02-18 16:49:47,687 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 449s
+[2022-02-18 16:49:57,677 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 452s
+[2022-02-18 16:50:03,688 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 453s
+[2022-02-18 16:50:07,682 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 457s
+[2022-02-18 16:50:15,705 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 454s
+[2022-02-18 16:50:18,707 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 464s
+[2022-02-18 16:50:31,713 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 470s
+[2022-02-18 16:50:59,764 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 472s
+[2022-02-18 16:51:14,783 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 474s
+[2022-02-18 16:51:36,835 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 481s
+[2022-02-18 16:51:41,900 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 475s
+[2022-02-18 16:51:42,141 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 486s
+[2022-02-18 16:51:57,018 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 488s
+[2022-02-18 16:52:09,067 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 497s
+[2022-02-18 16:52:19,061 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 499s
+[2022-02-18 16:52:27,138 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 515s
+[2022-02-18 16:52:45,118 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 522s
+[2022-02-18 16:52:55,132 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 519s
+[2022-02-18 16:52:55,224 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 524s
+[2022-02-18 16:53:09,198 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 528s
+[2022-02-18 16:53:16,203 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 524s
+[2022-02-18 16:53:16,294 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 531s
+[2022-02-18 16:53:28,239 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 536s
+[2022-02-18 16:53:41,287 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 539s
+[2022-02-18 16:53:56,401 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 538s
+[2022-02-18 16:54:01,272 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 542s
+[2022-02-18 16:54:09,292 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 545s
+[2022-02-18 16:54:13,299 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 554s
+[2022-02-18 16:54:28,333 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 559s
+[2022-02-18 16:54:34,336 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 555s
+[2022-02-18 16:54:39,340 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 554s
+[2022-02-18 16:54:46,363 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 559s
+[2022-02-18 16:54:53,382 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 564s
+[2022-02-18 16:55:08,416 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 563s
+[2022-02-18 16:55:50,486 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 568s
+[2022-02-18 16:56:08,541 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 573s
+[2022-02-18 16:56:15,533 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 572s
+[2022-02-18 16:56:59,563 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 569s
+[2022-02-18 16:57:05,599 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 568s
+[2022-02-18 16:57:11,599 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 569s
+[2022-02-18 16:57:19,612 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 573s
+[2022-02-18 16:57:24,642 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 575s
+[2022-02-18 16:57:28,643 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 573s
+[2022-02-18 16:57:45,671 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 578s
+[2022-02-18 16:57:53,691 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 577s
+[2022-02-18 16:58:11,713 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 575s
+[2022-02-18 16:58:22,731 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 573s
+[2022-02-18 16:58:28,744 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 577s
+[2022-02-18 16:58:37,758 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 578s
+[2022-02-18 16:58:49,780 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 581s
+[2022-02-18 16:58:53,803 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 578s
+[2022-02-18 16:58:59,803 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 581s
+[2022-02-18 17:00:10,964 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:00:14,971 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:00:20,952 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:00:21,063 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:01:20,084 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 590s
+[2022-02-18 17:01:26,107 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 587s
+[2022-02-18 17:01:32,111 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:02:16,235 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:02:31,222 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:02:45,241 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:02:46,240 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:03:04,277 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:03:12,329 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:03:39,366 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 590s
+[2022-02-18 17:03:53,391 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 587s
+[2022-02-18 17:03:55,425 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:04:13,483 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 587s
+[2022-02-18 17:07:23,395 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:07:23,538 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 587s
+[2022-02-18 17:07:29,391 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 584s
+[2022-02-18 17:17:47,710 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 583s
+[2022-02-18 17:17:52,725 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 582s
+[2022-02-18 17:18:25,550 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet /upload-photo-POST-korg: [{'cnt': 1, 'msg': 'Non HTTP response message: Broken pipe (Write failed)', 'tag': None, 'rc': 'Non HTTP response code: java.net.SocketException', 'type': 0, 'urls': Counter({'https://ivy-web-snd.azure.defra.cloud/upload-photo': 1})}]
+[2022-02-18 17:19:53,801 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 527s
+[2022-02-18 17:19:53,839 WARNING Engine.jmeter.JTLReader] No details for errors of /upload-photo-POST-korg, dropped info: [{'cnt': 1, 'msg': 'Non HTTP response message: Broken pipe (Write failed)', 'tag': None, 'rc': 'SocketException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:19:53,855 WARNING Engine.jmeter.JTLReader] No details for errors of , dropped info: [{'cnt': 1, 'msg': 'Non HTTP response message: Broken pipe (Write failed)', 'tag': None, 'rc': 'SocketException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:20:02,645 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 515s
+[2022-02-18 17:20:46,062 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 517s
+[2022-02-18 17:20:49,071 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 520s
+[2022-02-18 17:20:52,056 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 522s
+[2022-02-18 17:20:59,090 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 523s
+[2022-02-18 17:21:05,094 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 524s
+[2022-02-18 17:50:07,612 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet upload-photo-overview-post: [{'cnt': 2, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:50:07,619 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet upload-photo-korg-post: [{'cnt': 6, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:50:07,624 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet upload-photo-wurlitzer-post: [{'cnt': 3, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:50:27,888 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 512s
+[2022-02-18 17:50:27,914 WARNING Engine.jmeter.JTLReader] No details for errors of upload-photo-overview-post, dropped info: [{'cnt': 2, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:50:27,920 WARNING Engine.jmeter.JTLReader] No details for errors of upload-photo-korg-post, dropped info: [{'cnt': 6, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:50:27,925 WARNING Engine.jmeter.JTLReader] No details for errors of upload-photo-wurlitzer-post, dropped info: [{'cnt': 3, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 17:51:18,130 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 511s
+[2022-02-18 17:51:44,266 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 512s
+[2022-02-18 18:32:45,730 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 513s
+[2022-02-18 18:32:47,324 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet /upload-photo-POST-OVERVIEW: [{'cnt': 1, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'Non HTTP response code: org.apache.http.conn.HttpHostConnectException', 'type': 0, 'urls': Counter({'https://ivy-web-snd.azure.defra.cloud/upload-photo': 1})}]
+[2022-02-18 18:32:47,333 WARNING Engine.jmeter.JTLReader] Had error data but no KPISet /upload-photo-POST-lightbulb: [{'cnt': 1, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'Non HTTP response code: org.apache.http.conn.HttpHostConnectException', 'type': 0, 'urls': Counter({'https://ivy-web-snd.azure.defra.cloud/upload-photo': 1})}]
+[2022-02-18 18:32:47,541 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 508s
+[2022-02-18 18:32:47,556 WARNING Engine.jmeter.JTLReader] No details for errors of /your-photos-GET, dropped info: [{'cnt': 3, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'HttpHostConnectException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 18:32:47,561 WARNING Engine.jmeter.JTLReader] No details for errors of /upload-photo-POST-OVERVIEW, dropped info: [{'cnt': 1, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'HttpHostConnectException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 18:32:47,566 WARNING Engine.jmeter.JTLReader] No details for errors of /upload-photo-POST-lightbulb, dropped info: [{'cnt': 1, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'HttpHostConnectException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 18:32:47,572 WARNING Engine.jmeter.JTLReader] No details for errors of , dropped info: [{'cnt': 5, 'msg': 'Non HTTP response message: Connect to ivy-web-snd.azure.defra.cloud:443 [ivy-web-snd.azure.defra.cloud/10.202.225.55] failed: Operation timed out (Connection timed out)', 'tag': None, 'rc': 'HttpHostConnectException', 'type': 0, 'urls': Counter()}]
+[2022-02-18 18:32:47,690 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 506s
+[2022-02-18 20:33:17,936 WARNING Engine.jmeter.JTLReader] No details for errors of upload-photo-overview-post, dropped info: [{'cnt': 1, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 20:33:17,951 WARNING Engine.jmeter.JTLReader] No details for errors of , dropped info: [{'cnt': 1, 'msg': 'Number of samples in transaction : 3, number of failing samples : 3', 'tag': None, 'rc': '', 'type': 0, 'urls': Counter()}]
+[2022-02-18 22:33:32,475 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 505s
+[2022-02-19 00:33:47,179 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 503s
+[2022-02-19 04:34:13,838 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 502s
+[2022-02-19 06:34:17,519 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 500s

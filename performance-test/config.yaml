@@ -1,6 +1,6 @@
 execution:
   - scenario: soak
-    concurrency: 1000
+    concurrency: 50
     ramp-up: 10m
     hold-for: 600m
 
@@ -10,7 +10,7 @@ scenarios:
     variables:
       PAUSE: 15000
       scheme: https
-      host: ivy-web-tst.azure.defra.cloud
+      host: ivy-web-snd.azure.defra.cloud
       username:
       password:
       email:
