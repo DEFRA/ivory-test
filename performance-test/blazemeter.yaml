@@ -4,7 +4,7 @@ execution:
     ramp-up: 1m
     hold-for: 12m
     locations:
-      eu-west-2: 1
+      eu-west-3: 1
     locations-weighted: false
 
 scenarios:
@@ -13,10 +13,10 @@ scenarios:
     variables:
       PAUSE: 15000
       scheme: https
-      host:
-      username:
-      password:
-      email:
+      host: ivy-web-pre.azure.defra.cloud
+      username: defra
+      password: n3lli3the3l3phant
+      email: dele.lookman@defra.gov.uk
       use_address_lookup: false
       use_gov_pay: false
       gov_pay_url: # not fully implemented. for use on approved test environments only
@@ -34,3 +34,5 @@ modules:
     disable: false
   final_stats:
     disable: false
+
+

@@ -10,3 +10,5 @@ performance-test/threads.csv
 performance-test/upload-failures.csv
 performance-test/response-times.csv
 node_modules
+functional-tests
+.DS_Store
