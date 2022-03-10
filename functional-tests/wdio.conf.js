@@ -24,7 +24,7 @@ exports.config = {
   // will be called from there.
   //
   specs: [
-      './acceptance-test/specs/**/*.js'
+      './ivory-acceptance-test/specs/**/*.js'
   ],
   // Patterns to exclude.
   exclude: [
