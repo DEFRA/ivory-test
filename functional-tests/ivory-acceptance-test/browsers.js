@@ -12,21 +12,21 @@ module.exports = [
     browserName: 'Chrome',
     browserVersion: 'latest'
   },
-  // {
-  //   // iPhone SE 2020 13 Safari latest
-  //   osVersion: '13',
-  //   device: 'iPhone 11',
-  //   realMobile: 'true',
-  //   browserName: 'iPhone',
-  //   browserVersion: 'latest',
-  //   appiumVersion: '1.18.0'
-  // },
-  // {
-  // // Samsung Galaxy S20 Chrome latest
-  //   osVersion: '10.0',
-  //   device: 'Samsung Galaxy S20',
-  //   realMobile: 'true',
-  //   browserVersion: 'latest',
-  //   appiumVersion: '1.18.0'
-  // }
+  {
+    // iPhone SE 2020 13 Safari latest
+    osVersion: '13',
+    device: 'iPhone 11',
+    realMobile: 'true',
+    browserName: 'iPhone',
+    browserVersion: 'latest',
+    appiumVersion: '1.18.0'
+  },
+  {
+  // Samsung Galaxy S20 Chrome latest
+    osVersion: '10.0',
+    device: 'Samsung Galaxy S20',
+    realMobile: 'true',
+    browserVersion: 'latest',
+    appiumVersion: '1.18.0'
+  }
 ]

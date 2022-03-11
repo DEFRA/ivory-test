@@ -53,7 +53,6 @@ class s10Page {
       await (await this.whyRmi).setValue(text)
     }
    
-  
     async  selectwhatTypeOfItemIsItRadioRadioBtn () {
       await (await this.whatTypeOfItemIsItRadio).click()
     }
@@ -94,7 +93,6 @@ class s10Page {
       await (await this.ivoryIsIntegral).click()
     }
 
-  
     async selecthasDistinguishingFeaturesRadioBtn () {
       await (await this.hasDistinguishingFeatures).click()
     }
@@ -114,8 +112,6 @@ class s10Page {
        const remote = await browser.uploadFile(filePath)
        await this.clickOnUpload.setValue(remote)
     }
-  
-
   
 }
 module.exports = new s10Page();

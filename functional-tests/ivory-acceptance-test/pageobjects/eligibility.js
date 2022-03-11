@@ -15,9 +15,7 @@ class eligibilityPage {
   get madeBefore1947RadioBtn () {return $('#madeBefore1947')}
   get ivoryAdded2RadioBtn () {return $('#ivoryAdded-2')}
 
-
     // METHODS AND FUNCTIONS
-
    
     async selecthowCertain2RadioBtn () {
       await (await this.selecthowcertain2Radio).click()

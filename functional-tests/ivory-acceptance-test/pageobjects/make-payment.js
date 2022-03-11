@@ -113,7 +113,6 @@ class makePaymentPage {
       await (await this.selectnowhatTypeOfItemIsIt).click()
     }
 
-
     async selectalreadyCertifiedRadioBtn () {
       await (await this.selectalreadyCertifiedRadio).click()
     }
@@ -168,8 +167,6 @@ class makePaymentPage {
    async enterpreviousApplicationNumber(text) {
     await (await this.previousApplicationNumber).setValue(text)
    }
-
-
 
   async enterCardNumberDetails(text) {
     await (await this.enterCardNumber ).setValue(text)

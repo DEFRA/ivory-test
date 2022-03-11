@@ -15,8 +15,8 @@ exports.config = {
 
   maxInstances: 2,
 
-  user: process.env.BROWSERSTACK_USERNAME || 'delelookman_luaedN',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'wKiQKQMXy6v3q33hz82T',
+  user: process.env.BROWSERSTACK_USERNAME || process.env.BS_USER,
+  key: process.env.BROWSERSTACK_ACCESS_KEY || process.env.BS_KEY,
 
   capabilities: compatibility.map(e => {
     e.project = 'Ivory'
