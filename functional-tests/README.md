@@ -1,9 +1,4 @@
 
-# Environment variables
-# When running locally after code has been deployed to Test environment
- Set 'baseUrl' in wdio.conf.js to https://ivy-web-tst.azure.defra.cloud
-# When running locally using docker
-Set 'baseUrl' in wdio.conf.js to docker url
 # Prerequisites
 
 Minimum Node.js v12.16.1 +
@@ -15,11 +10,18 @@ First clone the repo using:
 
 `$ git clone`
 
-Then from the root of the project folder:
+Then from the root of the project folder:(ivory-acceptance-test)
 
 `$ npm i`
 
 This should install all dependacies etc
+
+# Environment variables
+# When running locally after code has been deployed to Test environment
+ Set 'baseUrl' in wdio.conf.js to https://ivy-web-tst.azure.defra.cloud
+
+# When running locally using docker
+Set 'baseUrl' in wdio.conf.js to docker url
 
 # Run the tests
 
