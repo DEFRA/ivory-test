@@ -13,10 +13,10 @@ scenarios:
     variables:
       PAUSE: 15000
       scheme: https
-      host:
-      username:
-      password:
-      email:
+      host: 
+      username: 
+      password: 
+      email: 
       use_address_lookup: false
       use_gov_pay: false
       gov_pay_url: # not fully implemented. for use on approved test environments only
@@ -34,3 +34,5 @@ modules:
     disable: false
   final_stats:
     disable: false
+
+
