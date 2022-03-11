@@ -10,7 +10,7 @@ scenarios:
     variables:
       PAUSE: 15000
       scheme: https
-      host: ivy-web-snd.azure.defra.cloud
+      host: 
       username:
       password:
       email:

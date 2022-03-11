@@ -13,10 +13,10 @@ scenarios:
     variables:
       PAUSE: 15000
       scheme: https
-      host: ivy-web-pre.azure.defra.cloud
-      username: defra
-      password: n3lli3the3l3phant
-      email: dele.lookman@defra.gov.uk
+      host: 
+      username: 
+      password: 
+      email: 
       use_address_lookup: false
       use_gov_pay: false
       gov_pay_url: # not fully implemented. for use on approved test environments only
