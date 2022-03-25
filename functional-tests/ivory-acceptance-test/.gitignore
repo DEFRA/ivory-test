@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+reports
+selenium-debug.log
+.vscode
+local.log
+.env
+.DS_Store
