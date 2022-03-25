@@ -60,7 +60,7 @@ exports.config = {
 
   logLevel: 'warn',
   bail: 0,
-  baseUrl: 'https://ivy-web-tst.azure.defra.cloud',
+  baseUrl: process.env.IVORY_APP_SITE_URL,
   waitforTimeout: 60000,
   connectionRetryTimeout: 60000,
   connectionRetryCount: 3,

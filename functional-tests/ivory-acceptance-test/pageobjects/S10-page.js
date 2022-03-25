@@ -15,7 +15,6 @@ class s10Page {
   get ivoryAge7 () { return $('#ivoryAge-7') }
   get ivoryAge8 () { return $('#ivoryAge-8') }
   get otherReason () { return $('#otherReason') }
-  // get pageTitle () { return $('#pageTitle') }
   get selectwhatTypeOfItemIsIt2Radio () {return $('#whatTypeOfItemIsIt-2')}
   get selectwhatTypeOfItemIsIt4Radio () {return $('#whatTypeOfItemIsIt-4')}
   get selectwhatTypeOfItemIsIt5Radio () {return $('#whatTypeOfItemIsIt-5')}
@@ -24,19 +23,8 @@ class s10Page {
   get whereMadeRadio () {return $('#whereMade')}
   get whenMadeRadio () {return $('#whenMade')}
   get whyRmi () {return $('#whyRmi')}
+  get whatSpecies () {return $('#whatSpecies')}
   get wantToAddDocuments2 () {return $('#wantToAddDocuments-2')}
-
-
-
-  // get selectalreadyCertifiedRadio () {return $('#alreadyCertified')}
-  // get IdontknowRadioBtn () {return $('#containElephantIvory-3')}
-  // get containElephantIvoryRadioBtn () {return $('#containElephantIvory')}
-  // get sellingToMuseum2RadioBtn () {return $('#sellingToMuseum-2')}
-  // get isItAMusicalInstrument2RadioBtn () {return $('#isItAMusicalInstrument-2')}
-  // get lessThan10IvoryRadioBtn () {return $('#lessThan10Ivory')}
-  // get madeBefore1947RadioBtn () {return $('#madeBefore1947')}
-  // get ivoryAdded2RadioBtn () {return $('#ivoryAdded-2')}
-
 
     // METHODS AND FUNCTIONS
     async enterwhereMade (text) {
@@ -55,6 +43,10 @@ class s10Page {
    
     async  selectwhatTypeOfItemIsItRadioRadioBtn () {
       await (await this.whatTypeOfItemIsItRadio).click()
+    }
+       
+    async  selectelephantspeciesRadioBtn () {
+      await (await this.whatSpecies).click()
     }
 
     async  selectwhatTypeOfItemIsIt3RadioRadioBtn () {

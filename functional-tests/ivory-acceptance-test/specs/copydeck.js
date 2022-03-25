@@ -4,6 +4,7 @@ const searchData = require('../fixtures/copy-deck')
 const makePaymentPage = require('../pageobjects/make-payment.js')
 const eligibilityPage = require('../pageobjects/eligibility.js')
 
+
 describe('Copy Deck', function () {
     it("AC-1 Privacy text", async () => {
       await browser.url('/')
@@ -70,7 +71,7 @@ describe('Copy Deck', function () {
       await makePaymentPage.selectRmiItemFive()
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.selectwhatTypeOfItemIsItRadioBtn()
-      await makePaymentPage.enterCertNumber('AB12CD34')
+      await makePaymentPage.enterCertNumber(searchData.content.certNo)
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.clickContinueBtn()
       await chaiExpect(await copydeckPage.getjointResponsibilityText()).equals(searchData.content.jointResponsibityText)
@@ -82,7 +83,7 @@ describe('Copy Deck', function () {
       await makePaymentPage.selectRmiItemFive()
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.selectwhatTypeOfItemIsItRadioBtn()
-      await makePaymentPage.enterCertNumber('AB12CD34')
+      await makePaymentPage.enterCertNumber(searchData.content.certNo)
       await makePaymentPage.clickContinueBtn()
       await chaiExpect(await copydeckPage.getdeclarationToSellOrHireOutText()).equals(searchData.content.declarationToSellOrHireOutTexts)
     })
@@ -96,7 +97,7 @@ describe('Copy Deck', function () {
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.clickonappliedBefore()
       await makePaymentPage.clickContinueBtn()
-      await makePaymentPage.enterpreviousApplicationNumber('AB12CD34')
+      await makePaymentPage.enterpreviousApplicationNumber(searchData.content.certNo)
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.clickContinueBtn()
       await makePaymentPage.clickContinueBtn()

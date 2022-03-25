@@ -101,7 +101,7 @@ exports.config = {
   /* For the purposes of the boilerplate, a baseUrl to prod flood is hardcoded here, but for
   individual projects its expected environment varabiles will be used to manage where
   the tests are being pointed as per the commented out example */
-  baseUrl: 'https://ivy-web-tst.azure.defra.cloud',
+  baseUrl: process.env.IVORY_APP_SITE_URL,
   
   //
   // Default timeout for all waitFor* commands.
